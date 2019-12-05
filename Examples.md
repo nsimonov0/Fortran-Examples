@@ -1,8 +1,5 @@
 ## Fortran Examples
 
-#### Program Structure
-"""
-PROGRAM MyProgram
+''' PROGRAM MyProgram
   ! Do some stuff here
-END PROGRAM MyProgram
-"""
+END PROGRAM MyProgram '''
