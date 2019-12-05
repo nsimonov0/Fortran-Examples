@@ -1,37 +1,37 @@
 ## Fortran Examples
 
 #### Program Structure
-``` 
+``` fortran 
 PROGRAM MyProgram
  ! Do some stuff here
 END PROGRAM MyProgram
 ```
 
 #### Variable Declaration
-```
+``` fortran
 INTEGER :: n = 3
 INTEGER :: m = 6
 ```
 Fortran has different types for numeric values. For example, if our calculations required non-integer numbers, such as 3.141, we would use a type called REAL.
 
 #### REAL (Real Number)
-```
+``` fortran 
 REAL :: pi = 3.141
 ```
 
 #### Logical Type
 Refers to variables that are used as True or False values.
-```
+``` fortran 
 LOGICAL :: Cond_1
 LOGICAL :: Cond_2
 ```
 
 #### The READ function tells the fortran program to record the values you enter via the keyboard and store them in variables that you define in your program.
-``` 
+``` fortran 
 READ(*,*)  a, b, c
 ````
 #### The WRITE function is very similar, but it just prints out the variables to the screen, in the order specified.
-``` 
+``` fortran 
 WRITE(*,*) a, b, c
 ```
 #### Heron Formula implemented in Fortran
